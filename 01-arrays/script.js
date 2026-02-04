@@ -18,7 +18,9 @@ teachers[4] = 'Patrick'; //prendi la quinta voce, con array4 (indice parte da 0)
 console.log(teachers[4]); //logga su console il valore di teachers indice 4
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+console.log(teachers.length); //per non contare, trovo l'ultima posizione usando length
+const lastTeacher = teachers[6]; //inizializzo ed assegno alla variabile lastTeacher, l'ultimo valore dell'array
+console.log(lastTeacher); //loggo su console il valore di lastTeacher
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
