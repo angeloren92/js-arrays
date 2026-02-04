@@ -14,6 +14,8 @@ const fourthTeacher = teachers[3]; //inizializza ed assegna a fourthTeacher, l'i
 console.log(fourthTeacher); //logga su console il valore di fourthTeacher che abbiamo assegnato prima
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
+teachers[4] = 'Patrick'; //prendi la quinta voce, con array4 (indice parte da 0), e sostituiscilo con la stringa Patrick
+console.log(teachers[4]); //logga su console il valore di teachers indice 4
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = null;
