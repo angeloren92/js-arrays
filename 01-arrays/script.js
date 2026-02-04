@@ -10,7 +10,8 @@ const teachers = [
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = null;
+const fourthTeacher = teachers[3]; //inizializza ed assegna a fourthTeacher, l'indice 3 dell'array teachers (indice inizia a contare da 0)
+console.log(fourthTeacher); //logga su console il valore di fourthTeacher che abbiamo assegnato prima
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 
