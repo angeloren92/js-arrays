@@ -35,10 +35,11 @@ console.log(firstTeacher, teachers); //loggo in console firstTeacher e gli eleme
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push('Vanessa'); //prendo array teachers e uso il metodo push per aggiungere un elemento alla fine
-console.log(teachers); //loggo in console teachers 
+console.log(teachers); //loggo in console gli elementi di teachers 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-
+teachers.unshift('Sarah'); //prendo array techers e uso il metodo unshift per aggiungere un elemento all'inizio
+console.log(teachers); //loggo in console gli elementi di teachers
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
