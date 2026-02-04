@@ -48,8 +48,7 @@ console.log(lewisIndex); //loggo in console il valore di lewisindex
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = teachers.length == 0; /* inizializzo e assegno un valore booleano
-verificando con length quanti elementi contenga */
-console.log(isTeachersEmpty); 
-let prova;
-console.log(prova.lenght == 0);
+const isTeachersEmpty = teachers.length == 0; /* inizializzo e assegno un valore booleano a const
+andando a verificare con il metodo lenght che teachers sia uguale a 0, 
+se vero è vuoto, se falso e diverso da 0 ha degli elementi contenuti all'interno */
+console.log(isTeachersEmpty); //loggo in console il valore booleano che abbiamo trovato
