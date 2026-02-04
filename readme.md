@@ -40,3 +40,19 @@ Le Memorie di Angelo,  [04/02/2026] :
     -Il metodo .lenght è molto utile per andare a definire i valori in maniera logica, per esempio per trovare il numero elementi di un array
     e sfruttarlo nelle logiche IF ELSE o FOR con i contatori
     
+I metodi che abbiamo usato oggi per gli array sono:
+    array.lenght                - possiamo trovare la lunghezza, ossia quanti elementi, presenti in un array 
+    array.push(argomento)       - possiamo aggiungere un elemento alla fine dell'array
+    array.pop()                 - possiamo rimuovere l'ultimo elemento dell'array
+    array.shift()               - possiamo rimuovere il primo elemento dall'array
+    array.unshift(argomento)    - possiamo aggiungere un alemento all'inizio dell'array
+    array.indexOf(argomento)    - possiamo trovare un valore (argomento), all'interno dell'array, restituendo l'indice corrispondente
+    array.join(argomento)       - possiamo concatenare tutti gli elementi di un array in una stringa
+                                  l'argomento invece è il separatore da dichiarare, se non dichiarato è una virgola
+    array.includes(argomento)   - possiamo ricercare un valore (argomento), all'interno dell'array, restituendo un valore booleano
+    array.splice(argomento)     - possiamo rimuovere 1 o più elementi da un array, nell'argomento va prima il valore iniziale e poi la qtà a seguire
+
+Ci siamno esercitati ad annidare le istruzioni, usando tutte le istruzioni, i metodi, gli argomenti che abbiamo imparato.
+PS non continuare a sbagliare LENGTH con lenght, la prima è corretta
+   Se facciamo una inizializzazione e assegnazione ad una variabile/costante, che è il risultato di una condizione, 
+   metterla tra parentesi per una visibilità/lettura migliore
