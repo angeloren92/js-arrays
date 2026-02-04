@@ -37,8 +37,10 @@ for (let i = 0; i < teachers.length; i++) { //ciclo con contatore e condizione c
 }
 console.log(longNames); //loggo i nomi lunghi
 
-
 // 3. Rimuovi 'Ed' dall'array teachers
+teachers.splice(teachers.indexOf('Ed'), 1); //usiamo il metodo splice per rimuovere elementi in un array
+//all'interno troviamo il valore 'Ed' usando indexof per trovare l'indice, e poi indichiamo 1 elemento da rimuovere
+console.log(teachers); //loggo il risultato
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
