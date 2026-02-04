@@ -44,7 +44,8 @@ console.log(teachers); //loggo il risultato
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
-const isFabioPresent = null;
+const isFabioPresent = teachers.includes('Fabio'); //usiamo il metodo includes poer cercar eil valore Fabio nell'array, e ci restituisce un valore booleano
+console.log(isFabioPresent); //loggo il valore, in questo caso true perchè presente
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = null;
