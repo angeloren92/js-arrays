@@ -48,4 +48,6 @@ const isFabioPresent = teachers.includes('Fabio'); //usiamo il metodo includes p
 console.log(isFabioPresent); //loggo il valore, in questo caso true perchè presente
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+const teachersString = teachers.join(', ');//uso il metodo join per unire tutti gli elementi di un array in una stringa
+//potevo lasciare le parentesi vuote per avere solo la virgola, ma volevo fare una prova ed ho notato che era più ordinato avere virgola e spazio ! (^_^)
+console.log(teachersString); //loggo il risultato
