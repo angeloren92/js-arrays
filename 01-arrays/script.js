@@ -21,6 +21,12 @@ console.log(teachers[4]); //logga su console il valore di teachers indice 4
 console.log(teachers.length); //per non contare, trovo l'ultima posizione usando length
 const lastTeacher = teachers[6]; //inizializzo ed assegno alla variabile lastTeacher, l'ultimo valore dell'array
 console.log(lastTeacher); //loggo su console il valore di lastTeacher
+teachers.pop(); //rimuovo l'ultimo elemnto dell'array
+console.log(teachers); //loggo su display tutti gli elementi dell'array
+/* potrei usare anche questa scrittura concatenata:
+const lastTeacher = teachers.pop(); 
+  in questo modo potrei inizializzare, assegnare alla variabile, per poi rimuovere l'ultimo valore dichiarandolo in una unica stringa
+*/
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
